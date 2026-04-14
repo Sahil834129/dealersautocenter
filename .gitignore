@@ -1,0 +1,153 @@
+# Java
+*.class
+*.log
+*.ctxt
+.mtj.tmp/
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.factorypath
+hs_err_pid*
+replay_pid*
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE - IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# IDE - VS Code
+.vscode/
+*.code-workspace
+.history/
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+.vscode/extensions.json
+.vscode/*.code-snippets
+
+# IDE - Eclipse
+.classpath
+.project
+.settings/
+.metadata/
+bin/
+tmp/
+
+# Node
+node_modules
+**/node_modules
+**/node_modules/
+package-lock.json
+**/package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# React/Vite
+**/dist/
+**/dist-ssr/
+**/.vite/
+*.local
+
+# Environment files
+.env
+.env.*
+!.env.example
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Testing
+**/coverage/
+**/.nyc_output/
+
+# Production build
+**/build/
+build.log
+
+# System Files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Project specific
+uploads/
+logs/
+*.log
+
+# Shop specific
+shop/node_modules/
+shop/dist/
+shop/.vite/
+shop/coverage/
+shop/build/
+shop/.env*
+!shop/.env.example
+shop/*.local
+shop/package-lock.json
+
+# Admin specific
+admin/node_modules/
+admin/dist/
+admin/.vite/
+admin/coverage/
+admin/build/
+admin/.env*
+!admin/.env.example
+admin/*.local
+admin/package-lock.json
+
+# Patch files
+*.patch
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+
+# Additional build artifacts
+*.tsbuildinfo
+*.cache
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE specific
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+*~
+
+shop/node_modules/.package-lock.json
